@@ -3,14 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{DE2935A0-41DF-40EF-9325-63932E21B7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{DE2935A0-41DF-40EF-9325-63932E21B7D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{8487EA41-A546-43B2-A5A7-70C8BEA0D4E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{8487EA41-A546-43B2-A5A7-70C8BEA0D4E8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DE2935A0-41DF-40EF-9325-63932E21B7D0} = {DE2935A0-41DF-40EF-9325-63932E21B7D0}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertisseurConsole", "ConvertisseurConsole\ConvertisseurConsole.csproj", "{1563E763-8CD7-479D-8F63-0895136144BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertisseurConsole", "ConvertisseurConsole\ConvertisseurConsole.csproj", "{1563E763-8CD7-479D-8F63-0895136144BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B7EE13A-62DC-47EB-A28E-66D0DF2F2A5F}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

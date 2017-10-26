@@ -6,6 +6,7 @@ dist: trusty
 script:
 - dotnet restore
 - dotnet test ./UnitTestProject1/UnitTestProject1.csproj
+- cd ./ConvertisseurConsole/
 - dotnet build -c Release
 - dotnet publish -c Release -o ./ConsoleApp1/publish
 deploy:

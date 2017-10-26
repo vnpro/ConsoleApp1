@@ -45,7 +45,7 @@ namespace ConverterLibrary
             Initialize();
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
             dico.Add(0, "0");
             dico.Add(1, "I");

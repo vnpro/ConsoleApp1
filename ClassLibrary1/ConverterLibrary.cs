@@ -20,7 +20,7 @@ namespace ConverterLibrary
             return dico[digit];
         }
 
-        public void Initialize() {}
+        public virtual void Initialize() {}
     }
 
     public class ASCIIConverter : Converter
@@ -30,7 +30,7 @@ namespace ConverterLibrary
             Initialize();
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
             dico.Add(48, "0");
             dico.Add(65, "A");
